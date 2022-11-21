@@ -7,18 +7,18 @@ def main(s):
         int: answer
     """
     if s[0]=="*":
-        return 1
+        return 0
     if s[1]=="*":
-        return 2
+        return 1
     if s[2]=="*":
-        return 3
+        return 2
     if s[3]=="*":
-        return 4
+        return 3
     if s[4]=="*":
-        return 5
+        return 4
     if s.count("*")==0:
         return False
-    return
+    return s
 
-print (main("1sss3"))
+print (main("1s*s3"))
         
