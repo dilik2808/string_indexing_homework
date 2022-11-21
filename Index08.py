@@ -6,5 +6,19 @@ def main(s):
     Returns:
         int: answer
     """
+    if s[0]=="*":
+        return 1
+    if s[1]=="*":
+        return 2
+    if s[2]=="*":
+        return 3
+    if s[3]=="*":
+        return 4
+    if s[4]=="*":
+        return 5
+    if s.count("*")==0:
+        return False
     return
+
+print (main("1sss3"))
         
