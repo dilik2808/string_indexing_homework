@@ -7,7 +7,7 @@ def main(s):
         int: answer
     """
     if s.isdigit():
-        return s
+        return int(s)
     else: return -1
 
 print(main("5"))
