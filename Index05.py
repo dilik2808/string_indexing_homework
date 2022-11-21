@@ -6,4 +6,18 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    
+    x=0
+    if s[0].isdigit():
+        x+=1
+    if s[1].isdigit():
+        x+=1
+    if s[2].isdigit():
+        x+=1
+    if s[3].isdigit():
+        x+=1
+    if s[4].isdigit():
+        x+=1
+    
+    return x
+print(main("de34d"))
